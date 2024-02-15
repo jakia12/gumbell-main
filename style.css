@@ -6,6 +6,8 @@ html {
 
 body {
   margin: 0;
+  font-family: "SF New Republic SC", sans-serif;
+  background-color: #3d2c53;
 }
 
 article,
@@ -2224,7 +2226,7 @@ textarea.w-select {
 }
 
 .social_link {
-  color: #0048ff;
+  color: #cca5ff;
   margin-right: 8px;
   font-family: Helvetica Now Text, sans-serif;
   font-size: 13px;
@@ -2616,7 +2618,7 @@ textarea.w-select {
     width: 70%;
   }
 }
-
+/* 
 @font-face {
   font-family: "Helvetica Now Text";
   src: url("https://assets.website-files.com/644ec2ecda3aa223d932f3f5/644ec2ecda3aa28a4e32f3fb_HelveticaNowText-Black.otf")
@@ -2759,4 +2761,23 @@ textarea.w-select {
   font-weight: 500;
   font-style: normal;
   font-display: swap;
+} */
+
+@font-face {
+  font-family: "SF New Republic SC";
+  src: url("/font/SF New Republic SC.ttf") format("woff2"),
+    url("/font/SF New Republic SC.ttf") format("woff");
+}
+.sendor_container {
+  width: 50vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  margin-left: 50px;
+  padding-top: 32px;
+  padding-bottom: 40px;
+  display: flex;
+  position: relative;
 }

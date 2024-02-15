@@ -2781,3 +2781,10 @@ textarea.w-select {
   display: flex;
   position: relative;
 }
+
+@media screen and (max-width: 768px) {
+  .sendor_container {
+    width: 94%;
+    height: 90vh;
+  }
+}
